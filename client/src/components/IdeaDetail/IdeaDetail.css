@@ -1,0 +1,232 @@
+.apply_page_container {
+    background-color: rgb(187, 222, 222);
+    width: 100%;
+    height: auto;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+.company_detail_nav {
+    border-bottom: 1px solid rgba(194, 185, 185, 0.6);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.company_detail_nav img {
+
+    width: 100px;
+}
+
+.Aplly_btn {
+    text-decoration: none;
+    background-color: rgb(2, 24, 60);
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    margin: 40px 10px 10px 0px;
+    width: 100px
+}
+
+.company_detail_nav h2 {
+    color: lightslategrey;
+    font-size: larger;
+    margin-top: 20px;
+    left: 0px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.company_detail p {
+    opacity: 80%;
+
+
+}
+
+.view_company_profile {
+    text-decoration: none;
+    background-color: rgb(84, 163, 4);
+    color: #fff;
+    padding: 10px 80px;
+
+}
+
+.view_company_profileLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.idea_details {
+    margin: 50px 15px 0px 10px;
+    background-color: #ffff;
+    flex: 4;
+}
+
+.idea_position_apply {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.idea_position_apply h2 {
+    color: rgb(0, 202, 202);
+}
+
+.idea_position_apply h4 {
+    margin-top: 10px;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightslategray;
+}
+
+.idea_summary_title {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: grey;
+    font-size: large;
+    border-bottom: 1px solid rgb(98, 98, 91);
+    padding: 10px;
+    width: 60%;
+}
+
+.about_idea {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.about_ideas {
+    height: 90px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+
+}
+
+.vacancy_number {
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.vancancy_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.vacancy_icon {
+    flex: 1;
+    color: orange;
+    font-size: 30px;
+}
+
+.v_ {
+    color: rgb(96, 96, 96);
+    opacity: 50%;
+}
+
+.idea-post-detail-skills {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.idea-post-detail-skills span {
+    background-color: orange;
+    border-start-start-radius: 10px;
+    padding: 10px;
+}
+
+.idea_detail_description {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+}
+
+.idea_detail_description h4 {
+    opacity: 50%;
+    font-size: larger;
+}
+
+.idea_detail_description p {
+    font-size: small;
+}
+
+.other_ideas {
+
+    margin: 50px 15px 0px 10px;
+    flex: 1;
+}
+
+.ideacontainer {
+    background: white;
+    padding: 2rem;
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.ideaDetailTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #4A90E2;
+}
+
+.ideaDetailPara{
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.ideabutton {
+    display: inline-block;
+    background: #4A90E2;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #357ABD;
+}
+
+.ideaCard {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.ideaCard-item {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 100%;
+    max-width: 480px;
+    text-align: left;
+    flex: 1;
+}
+
+.ideaCard-item h3 {
+    font-size: 1.5rem;
+    color: #4A90E2;
+    margin-bottom: 0.5rem;
+}
+
+.ideaCard-item p {
+    color: #666;
+}

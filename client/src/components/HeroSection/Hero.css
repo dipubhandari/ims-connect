@@ -1,0 +1,77 @@
+.cate_type_hero{
+padding: 0px 50px;
+}
+
+.hero_container {
+    /* background-color: rgb(39, 85, 107); */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    margin-top: 20px;
+}
+
+.hero_slogan {
+    color: #fff;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.hero_slogan_special {
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.search_field {
+    display: flex;
+    position: relative;
+   
+
+}
+.search_field input {
+    padding: 10px 70px;
+}
+
+.input_field {
+    padding: 12px;
+    border: 1px solid grey;
+}
+
+.searchlink {
+    background-color: orange;
+    text-decoration: none;
+    color: #ffff;
+    border: none;
+    padding: 10px;
+}
+
+.keyword_input_logo {
+    position: relative;
+    color: orange;
+
+    font-size: large;
+    left: 40px;
+    top: 10px;
+}
+
+.category_input_avatar {
+    position: relative;
+
+    font-size: large;
+    left: 40px;
+    top: 10px;
+    color: orange;
+}
+
+.locaton_input_icon {
+    color: orange;
+    position: relative;
+    font-size: large;
+    left: 40px;
+    top: 10px;
+}

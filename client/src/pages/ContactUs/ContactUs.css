@@ -1,0 +1,52 @@
+/* ContactUs.css */
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .contact-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #7f8c8d;
+  }
+  
+  .contact-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  /* .form-group input,\n.form-group textarea {\n  width: 100%;\n  padding: 0.8rem;\n  border: 1px solid #ddd;\n  border-radius: 5px;\n  font-size: 1rem;\n  box-sizing: border-box;\n}\n\n.form-group input:focus,\n.form-group textarea:focus {\n  border-color: #3498db;\n  outline: none;\n}\n\n.submit-button {\n  background-color: #3498db;\n  color: white;\n  padding: 0.8rem 1.5rem;\n  border: none;\n  border-radius: 5px;\n  font-size: 1rem;\n  cursor: pointer;\n  transition: background-color 0.3s;\n}\n\n.submit-button:hover {\n  background-color: #2980b9;\n}\n\n.contact-details {\n  flex: 1;\n  min-width: 300px;\n  max-width: 400px;\n  padding: 1.5rem;\n  background: #f9f9f9;\n  border-radius: 10px;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.contact-details h2 {\n  font-size: 1.8rem;\n  margin-bottom: 1rem;\n  color: #2c3e50;\n}\n\n.contact-details p {\n  font-size: 1rem;\n  margin-bottom: 0.8rem;\n}\n\n.contact-details p strong {\n  color: #3498db;\n}\n```\n\n### Steps to Integrate\n1. Save the React code in a file named `ContactUs.jsx`.\n2. Save the CSS code in a file named `ContactUs.css` in the same directory.\n3. Import the CSS file in `ContactUs.jsx` using `import './ContactUs.css';`.\n4. Use the `<ContactUs />` component in your app.\n\nThis implementation is responsive, modern, and visually appealing! Let me know if you’d like enhancements. */
+  

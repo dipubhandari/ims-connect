@@ -1,0 +1,18 @@
+.incentive_container{
+    height: 100vh;
+    background-color: rgb(29, 29, 94);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+}
+.incentive_text{
+    color: orange;
+}
+.addToBank{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
